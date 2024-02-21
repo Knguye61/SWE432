@@ -1,9 +1,13 @@
+* {
+    margin: 0px;
+}
 /* Navigation Bar */
 .navbar {
     background-color: #046A38;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    min-height: 10vh;
+    justify-content: space-around;
 }
 .navbar ul {
     display: flex;
@@ -12,7 +16,7 @@
 }
   
 .navbar li {
-    list-style-type: none;
+    list-style: none;
     flex: 1 1 auto;
     padding: 0.5em;
     align-content: center;
