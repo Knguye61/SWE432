@@ -1,0 +1,85 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #046A38;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.navbar li {
+    list-style-type: none;
+    flex: 1 1 auto;
+    padding: 0.5em;
+    align-content: center;
+    margin-left: 20px;
+    }
+
+.nav-button {
+    display: inline-block;
+    padding: 15px 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: gold;
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.nav-button:hover {
+    background-color: #555;
+    color: white;
+}
+
+#logo {
+    height: 50px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.title h1{
+    text-align: center;
+}
+#contact {
+    margin-right: 10px;
+}
+
+/* Main Body */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Tables*/
+table {
+    border-collapse: collapse;
+    border-bottom: solid 2px #ededed;
+ }
+ 
+ th {
+    background-color: #ededed;
+    padding: 12px 0;
+    padding-left: 24px;
+    height: 40px;
+ }
+ 
+ td{
+    padding: 12px 0;
+    padding-left: 24px;
+    height: 40px;
+ }
+ 
+ td:first-child, th:first-child{
+    padding-left: 24px;
+ }
+ 
+ td:nth-child(2), th:nth-child(2){
+    padding-right: 50px;
+ }
